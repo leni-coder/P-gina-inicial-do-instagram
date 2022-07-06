@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Implementação do link da folha de estilo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- implementação do link do bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Implementação do link de script do bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+    <title>Instagram</title>
+</head>
+
+<body>
+    <div class="instaram-wrapper">
+        <div class="instagram-phone">
+            
+            <img id="instagram" src="./imagens/smartphone-removebg-preview.png" alt="Celular">
+            <!-- Criação de carrocel com bootstrap -->
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- lista não ondenada -->
+                <ol class="carrousel-indicators">
+                    <!-- Início da numeração das fotos -->
+                    <li data-bs-target = "#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target = "#myCarousel" data-bs-slide-to="1" ></li>
+                    <li data-bs-target = "#myCarousel" data-bs-slide-to="2" ></li> 
+                </ol>
+                <!-- Inserção das imagens do bootstrap -->
+                <div class="carousel-inner">
+                    <!-- Primeira imagem -->
+                    <div class="carousel-item active">
+                        <img  src="./imagens/cel2.png" class="d-block " alt="slide1">
+                        
+                    </div>
+                    <!-- Segunda imagem -->
+                    <div class="carousel-item">
+                        <img src="imagens/cel3.png" class="d-block "   alt="slide2">
+                    </div>
+                    <!-- Terceira imagem -->
+                    <div class="carousel-item">
+                        <img src="imagens/cel4.png" class="d-block "   alt="slide3">
+                    </div>
+                    
+      
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="instagram-continue">
+            <div class="group">
+                <img src="./imagens/instagram-logo.png" class="instagram-logo" alt="instagram-logo">
+                <div class="profile-photo">
+                    <img src="./imagens/capa.jpg" alt="foto de perfil">
+                </div>
+                <a href="#" class="instagram-login">Continue como lenivaldo_ferreira</a>
+                <span class="account">Não é lenivaldo_ferreira?<a href="#" >Trocar conta</a></span>
+            </div>
+            
+            <div class="get-the-app">
+          
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
